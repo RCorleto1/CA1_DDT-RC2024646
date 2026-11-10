@@ -49,7 +49,33 @@ contract FoodTraceability {
             batch.name,
             batch.origin,
             batch.owner
-            
         );
+    }
+    
+    function transferBatch(
+        uint256 _batchId,
+        address _newOwner
+    ) public {
+        require(
+            _batchId > 0 && _batchId <= batchCount,
+            "Batch does not exist"
+        );
+
+        require(
+            batches[_batchId].owner == msg.sender,
+            "Only the current owner can transfer this batch"
+        );
+
+        require(
+            _newOwner != address(0),
+            "Receiver cannot be the zero address"
+        );
+
+        require(
+            _newOwner != msg.sender,
+            "Cannot transfer to yourself"
+        );
+
+        batches[_batchId].owner = _newOwner;
     }
 }

@@ -93,6 +93,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_batchId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferBatch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -123,11 +141,11 @@
 	},
 	"sources": {
 		"contracts/FoodTraceability.sol": {
-			"keccak256": "0xa21142f10e6a6da5cb2cab0e5e4a0da708ee3ae7eefeb14a9e069bf7b41e5b52",
+			"keccak256": "0x366a54c7daa424db5b97e6a675ddf3868e296289aa9b39c76e834bf35f41d133",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://656ce94b22ea41512604c08bedd4f05fb67a62d0f9f6b91a19d887d74abc4199",
-				"dweb:/ipfs/QmR5DRPFbBw1LoKSkhGAYi6Vj587Zhyck4WhY9M4ur1FhV"
+				"bzz-raw://9c86c04d4b6a3f42f9d179ecd78304ab6cdf96406101d291ce6d7811c35081af",
+				"dweb:/ipfs/QmVqEimrGPUXAyRmM95Kgy5GmWotcwpnm1X4YSG4Gzjjgy"
 			]
 		}
 	},
