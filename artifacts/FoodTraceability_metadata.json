@@ -102,6 +102,59 @@
 						"type": "uint256"
 					},
 					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTransfer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_batchId",
+						"type": "uint256"
+					}
+				],
+				"name": "getTransferCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_batchId",
+						"type": "uint256"
+					},
+					{
 						"internalType": "address",
 						"name": "_newOwner",
 						"type": "address"
@@ -141,11 +194,11 @@
 	},
 	"sources": {
 		"contracts/FoodTraceability.sol": {
-			"keccak256": "0x366a54c7daa424db5b97e6a675ddf3868e296289aa9b39c76e834bf35f41d133",
+			"keccak256": "0x7c6bf1f56b7695dfc9b8606f3ee30335fab0543c76ac2fb400d9847449c3c0ea",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9c86c04d4b6a3f42f9d179ecd78304ab6cdf96406101d291ce6d7811c35081af",
-				"dweb:/ipfs/QmVqEimrGPUXAyRmM95Kgy5GmWotcwpnm1X4YSG4Gzjjgy"
+				"bzz-raw://73c88991a8a381e35d7bbe8cdbb596a378f77ee2e8c3bc21f78a182f2b714ad1",
+				"dweb:/ipfs/QmdFAFssPh7RwuLzUP2dQzmvZ1d5RZdgA59CszFMVfYzw6"
 			]
 		}
 	},
