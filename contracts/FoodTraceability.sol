@@ -49,6 +49,7 @@ contract FoodTraceability {
             batch.name,
             batch.origin,
             batch.owner
+            
         );
     }
 }
