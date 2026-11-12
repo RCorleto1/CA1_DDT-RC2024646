@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.35+commit.47b9dedd"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -181,7 +181,7 @@
 		"compilationTarget": {
 			"contracts/FoodTraceability.sol": "FoodTraceability"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -194,11 +194,11 @@
 	},
 	"sources": {
 		"contracts/FoodTraceability.sol": {
-			"keccak256": "0x7c6bf1f56b7695dfc9b8606f3ee30335fab0543c76ac2fb400d9847449c3c0ea",
+			"keccak256": "0x7a5f34128ecb80d9f6ad428c71c0f4e566920da64292a724e16d04277196f45b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73c88991a8a381e35d7bbe8cdbb596a378f77ee2e8c3bc21f78a182f2b714ad1",
-				"dweb:/ipfs/QmdFAFssPh7RwuLzUP2dQzmvZ1d5RZdgA59CszFMVfYzw6"
+				"bzz-raw://7bf8ed4ad1efee5eaaed30b5bbfc1e82598613af5d8a6f8a6888c50e1ca1d3df",
+				"dweb:/ipfs/QmTTGpGkEfN4qv1vLm9ZGsux5vxdSfqvAScCRDmVrqbpQJ"
 			]
 		}
 	},
